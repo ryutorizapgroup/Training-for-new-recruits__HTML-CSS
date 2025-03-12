@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <header>
+    <head>
         <meta charset="UTF-8">
         <title>chocoZAPのLP</title>
-        <h1>chocoZAP</h1>
-    </header>
+    </head>
     <body>
+        <header>
+            <h1>chocoZAP</h1>
+            <nav>
+                <ul>
+                    <li><a href="#overview">サービス概要</a></li>
+                    <li><a href="#detail">サービス詳細</a></li>
+                    <li><a href="#form">お問い合わせフォーム</a></li>
+                </ul>
+            </nav>
+        </header>
         <main>
-            <article>
+            <img src="images/main_img.avif" alt="メイン広告">
+            <img src="images/price_img.avif" alt="値段">
+            <article id="overview">
                 <h2>サービス概要</h2>
                 <p>ChocoZAPは「運動したいけど、ジムに通うのが大変...」という方のために生まれた、<strong>いつでも気軽に通える無人ジム</strong>です。</p>
                 <p>24時間営業、予約不要、さらにアプリで簡単にトレーニング指導も受けられます。初心者でも安心して運動を始められる環境を提供しています。</p>
@@ -22,7 +33,7 @@
             </section>
 
             <section>
-                <h2>サービス詳細</h2>
+                <h2 id="detail">サービス詳細</h2>
                 <ul>
                     <li><h3>24時間365日利用可能</h3>
                         <p>忙しい方でも好きな時間に運動</p>
@@ -60,7 +71,7 @@
                     </ul>
             </section>
             
-            <section>
+            <section id="form">
                 <form>
                     <h2>お問い合わせフォーム</h2>
                     <p>名前：<input type="text" placeholder="山田太郎"></p>
@@ -95,10 +106,44 @@
             </section>
         </main>
         <aside>
-
+            <h2>会社概要</h2>
+            <table border="1">
+                <tr>
+                    <th>社名</th>
+                    <td>RIZAP株式会社</td>
+                </tr>
+                <tr>
+                    <th>所在地</th>
+                    <td>〒160-0023<br>
+                        東京都新宿区西新宿8-17-1 住友不動産新宿グランドタワー36階</td>
+                </tr>
+                <tr>
+                    <th>設立日</th>
+                    <td>平成22年5月7日</td>
+                </tr>
+                <tr>
+                    <th>資本金</th>
+                    <td>1,000万円（2020年8月21日現在）</td>
+                </tr>
+                <tr>
+                    <th>役員</th>
+                    <td>代表取締役社長 瀬戸 健</td>
+                </tr>
+                <tr>
+                    <th>事業内容</th>
+                    <td>健康に関する研究、ボディメイク事業等
+                    </td>
+                </tr>
+                <tr>
+                    <th>決算期</th>
+                    <td>3月</td>
+                </tr>
+            </table>
         </aside>
+        <footer>
+            <a href="https://www.instagram.com/chocozap_official/"><img src="images/instagram_icon.avif"></a>
+            <a href="https://twitter.com/chocozap_"><img src="images/x_icon.avif"></a>
+            <a href="https://lin.ee/89sQHyB"><img src="images/line_icon.svg"></a>
+        </footer>
     </body>
-    <footer>
-
-    </footer>
 </html>
