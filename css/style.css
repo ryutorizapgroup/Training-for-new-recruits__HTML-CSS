@@ -12,14 +12,14 @@ nav {
 }
 
 nav ul {
-    margin: 1rem;
-    padding: 1rem;
+    margin: 20px;
+    padding: 20px;
 }
 
 nav ul li {
     list-style: none;
     display: inline-block;
-    padding: 0 3rem;
+    padding: 0 40px;
 }
 
 nav ul li a {
@@ -39,8 +39,8 @@ h1 {
 
 h2 {
     color: #f0821e;
-    border-top: 0.25rem solid ;
-    margin-top: 2.5rem;
+    border-top: 5px solid ;
+    margin-top: 40px;
     font-size: 2.5rem;
 }
 
@@ -50,32 +50,32 @@ h3 {
 }
 
 article p {
-    margin-left: 2rem;
+    margin-left: 40px;
     font-size: 2rem;
-    width: 100rem;
-    height: 10rem;
+    width: 1000px;
+    height: 200px;
 }
 
 p {
     font-size: 1.5rem;
-    margin: 1.5rem;
-    margin-left: 0;
+    margin: 30px;
+    margin-left: 0px;
 }
 
 li p {
-    margin-top: 0;
+    margin-top: 0px;
     font-size: 1.5rem;
 }
 
 main ul {
     list-style: none;
-    padding-left: 1rem; 
+    padding-left: 20px; 
 }
 
 main li {
     background: url("../images/star.png") no-repeat left center;
-    background-size: 1rem 1rem;
-    padding-left: 1.5rem;
+    background-size: 20px 20px;
+    padding-left: 30px;
 }
 
 main img {
@@ -94,6 +94,6 @@ footer ul li {
 }
 
 footer img {
-    width: 5rem;
-    height: 5rem;
+    width: 100px;
+    height: 100px;
 }
