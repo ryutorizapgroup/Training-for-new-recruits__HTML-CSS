@@ -153,12 +153,13 @@ strong {
     margin-top: 40px;
 }
 
-.service-detail ul li {
+.service-detail ul {
+    margin-left: 20px;
     margin-top: 30px;
 }
 
-.voice {
-    margin-top: 40px;
+.service-detail ul li {
+    margin-top: 30px;
 }
 
 .voice__title {
@@ -168,19 +169,20 @@ strong {
 }
 
 .voice__content {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+    display: block;
+
 }
 
 .voice__content ul {
     margin-top: 10px;
+    text-align: center;
+    list-style: none;
 }
 
 
 .inquiry-form {
     margin-top: 40px;
+    margin: 0px 20px;
 }
 
 .inquiry-form__content {
@@ -195,6 +197,7 @@ strong {
 
 aside {
     margin-top: 40px;
+    margin: 0px 20px;
 }
 
 .company-overview {
@@ -213,17 +216,18 @@ li p {
     font-size: 1.5rem;
 }
 
-main ul {
+/* main ul {
     list-style: square;
     margin-left: 40px;
     padding-left: 20px; 
-}
+} */
 
 
 main img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 60%;
 }
 
 .address-item {
@@ -256,26 +260,45 @@ footer img {
     height: 100px;
 }
 
-@media (min-width: 800px) {
+
+.main-contents {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.voice-contents {
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.service-contents {
+    margin-left: 20px;
+}
+
+.personal-information {
+    margin-top: 60px;
+}
+
+@media (max-width: 800px) {
     .main-contents {
-        display: flex;
-        justify-content: space-between;
+        display: block;
+        margin: 0px 20px;
     }
 
-    .voice {
-        padding-top: 20px;
-    }
-
-    .contents {
-        margin-left: 20px;
-        margin-right: 20px;
+    .voice-contents {
+        margin: 0px 20px;
+        margin-top: 60px;
     }
 
     .voice__content {
-        display: block;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
     }
 
     .personal-information {
-        margin-top: 60px;
+        margin-top: 20px;
     }
 }
