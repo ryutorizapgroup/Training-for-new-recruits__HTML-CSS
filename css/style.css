@@ -4,14 +4,14 @@ body {
     background-image: url(../images/background.jpg);
     background-repeat: repeat-x;
     background-position: 0px 150px;
-    color: white;
+    color: #FFF;
 }
 
 header {
     background-color: #000;
     width: 100%;
     height: 150px;
-    border-bottom: 5px solid white;
+    border-bottom: 5px solid #FFF;
 }
 
 .header__container {
@@ -35,12 +35,12 @@ nav ul li {
     list-style: none;
     display: inline-block;
     padding: 0 40px;
-    border-left: 5px solid white;
+    border-left: 5px solid #FFF;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #FFF;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -128,7 +128,7 @@ strong {
     margin-top: 40px;
 }
 
-.service-detail h3 {
+.service-detail ul li {
     margin-top: 30px;
 }
 
@@ -206,14 +206,14 @@ main img {
 }
 
 input, textarea {
-    background-color: white;
+    background-color: #FFF;
     border: 1.5px solid #f0821e;
     border-radius: 2px;
 }
 
 footer {
     margin-top: 50px;
-    border-top: 5px solid white;
+    border-top: 5px solid #FFF;
 }
 
 footer ul {
