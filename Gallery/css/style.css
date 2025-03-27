@@ -181,8 +181,8 @@ strong {
 
 
 .inquiry-form {
-    margin-top: 40px;
     margin: 0px 20px;
+    margin-top: 40px;
 }
 
 .inquiry-form__content {
@@ -196,8 +196,8 @@ strong {
 }
 
 aside {
-    margin-top: 40px;
     margin: 0px 20px;
+    margin-top: 40px;
 }
 
 .company-overview {
@@ -280,6 +280,54 @@ footer img {
     margin-top: 60px;
 }
 
+.gallery {
+    margin: 40px 20px 0px;
+}
+
+.grid {
+    margin-top: 30px;
+    display: grid;
+    gap: 40px 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery__item img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.gallery__item p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.25rem;
+}
+
+.gallery__item a {
+    background: #111;
+}
+
+.gallery__item a img:hover {
+    opacity:0.5;
+	transition:0.3s;
+}
+
+.custom__hair-removal img {
+    object-position: 40% 0%;
+}
+
+.custom__nail img {
+    object-position: 40% 0%;
+}
+
+.custom__desk-bike img {
+    object-position: 70% 0%;
+}
+
+.custom__app img {
+    object-position: 77.5% 0%;
+}
+
 @media (max-width: 800px) {
     .main-contents {
         display: block;
@@ -300,5 +348,12 @@ footer img {
 
     .personal-information {
         margin-top: 20px;
+    }
+
+    .grid {
+        margin-top: 30px;
+        display: grid;
+        gap: 20px 10px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
